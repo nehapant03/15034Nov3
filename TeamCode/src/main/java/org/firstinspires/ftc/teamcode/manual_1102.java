@@ -123,6 +123,14 @@ public class manual_1102 extends LinearOpMode {
                 intake(.4);
             }
 
+            if(gamepad1.dpad_up){
+                lift(-.1);
+            }
+
+            if(gamepad1.dpad_down){
+                lift(0);
+            }
+
             /* ALTERNATE ELEVATOR FUNCTIONALITY (ONE BUTTON)
             if(gamepad1.a) {
                 if (isUp) {

@@ -68,7 +68,7 @@ public class DeployCrater extends LinearOpMode {
             straight(0.5, 1210);
             sleep(1000);
             //turn and go to depot
-            turnLeft(0.5, 362);
+            turnLeft(0.5, 300);
             sleep(1000);
             straight(0.5, 1420);
             sleep(1000);

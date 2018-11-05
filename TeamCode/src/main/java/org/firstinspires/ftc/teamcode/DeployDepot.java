@@ -57,9 +57,9 @@ public class DeployDepot extends LinearOpMode {
             turnLeft(-.5, 500);
             //Goes to depot
             intakeDeployer.setPosition(-.5);
-            straight(0.5, 1300);
+            straight(0.5, 1350);
             intake.setPower(.6);
-            sleep(1000);
+            sleep(3000);
             intake.setPower(0);
             sleep(1000);
             straight(-0.5,500);
