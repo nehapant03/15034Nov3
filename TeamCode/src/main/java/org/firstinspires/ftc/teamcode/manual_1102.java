@@ -48,7 +48,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="manual_1102", group="Team15304")
+@TeleOp(name="Manual Nov 3rd Competition", group="Team15304")
 
 public class manual_1102 extends LinearOpMode {
 
@@ -121,14 +121,6 @@ public class manual_1102 extends LinearOpMode {
             }
             else if(gamepad1.a){
                 intake(.4);
-            }
-
-            if(gamepad1.dpad_up){
-                lift(-.1);
-            }
-
-            if(gamepad1.dpad_down){
-                lift(0);
             }
 
             /* ALTERNATE ELEVATOR FUNCTIONALITY (ONE BUTTON)
